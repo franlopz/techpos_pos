@@ -1,0 +1,37 @@
+{
+  "name": "pos",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "https-preview": "serve dist"
+  },
+  "dependencies": {
+    "@cojam/signalr-no-jquery": "^0.4.0",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.4.1",
+    "@mui/material": "^5.4.1",
+    "@redux-devtools/extension": "^3.2.2",
+    "localforage": "^1.10.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "redux-thunk": "^2.4.1",
+    "signalr-no-jquery": "^0.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.2",
+    "https-localhost": "^4.7.0",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.19",
+    "vite": "^2.8.0",
+    "workbox-window": "^6.4.2"
+  }
+}
